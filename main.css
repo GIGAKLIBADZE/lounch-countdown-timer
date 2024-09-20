@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url(./images/bg-stars.svg), url(./images/pattern-hills.svg),
+    linear-gradient(to bottom, #1d1e28 0%, #261c2d 95%, #261a2d 100%);
+  background-repeat: no-repeat;
+  background-position: center, -100px bottom;
+  background-size: cover, 170% 100px, cover;
+  font-family: "Red Hat Text", sans-serif !important;
+  overflow-x: hidden;
+}
+
+body main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 142px;
+}
+
+main h1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 6.14px;
+  width: 327px;
+  line-height: normal;
+  text-align: center;
+}
+
+.container {
+  margin-top: 54px;
+  display: flex;
+  gap: 16px;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: center;
+}
+
+.sub-container p {
+  font-size: 7px;
+  font-weight: bold;
+  color: #8385a9;
+  letter-spacing: 2.96px;
+}
+
+.time {
+  width: 70px;
+  height: 66px;
+  background-color: #343650;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.images {
+  margin-top: 259px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding-bottom: 48px;
+}
+
+.images img {
+  width: 24px;
+  height: 24px;
+}
+
+.time h4 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fb5e84;
+  line-height: 1.97px;
+  letter-spacing: -1.08px;
+}
+
+@media (min-width: 1440px) {
+  body {
+    background-position: center, -100px bottom;
+    background-size: cover, 170% 200px, cover;
+  }
+
+  body main {
+    padding-top: 132px;
+  }
+
+  main h1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    width: 431px;
+  }
+
+  .container {
+    margin-top: 104px;
+    gap: 32px;
+  }
+
+  .time {
+    width: 148px;
+    height: 140px;
+  }
+
+  .time h4 {
+    font-size: 80px;
+    line-height: 0.89px;
+    letter-spacing: -2.4px;
+  }
+
+  .sub-container {
+    gap: 16px;
+  }
+
+  .sub-container p {
+    font-size: 14px;
+    letter-spacing: 5.92px;
+  }
+
+  .images {
+    margin-top: 252px;
+    gap: 32px;
+    padding-bottom: 72px;
+  }
+
+  .images img:hover {
+    filter: invert(54%) sepia(16%) saturate(2384%) hue-rotate(300deg)
+      brightness(98%) contrast(101%);
+    cursor: pointer;
+  }
+}
