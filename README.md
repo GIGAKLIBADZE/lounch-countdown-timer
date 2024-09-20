@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frontend Mentor - Lounch countdown timer
 
 ## Overview
@@ -47,3 +48,6 @@ Now, after building some markup projects, I am going to deeply learn JavaScript 
 
 Author
 Website - [https://github.com/GIGAKLIBADZE]
+=======
+# lounch-countdown-timer
+>>>>>>> 93fb9aa64d0ff1fe74e72886f34bdc638be1eb7c
